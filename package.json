@@ -1,0 +1,34 @@
+{
+  "name": "@stikom-ui/react",
+  "version": "0.1.0",
+  "description": "React components library",
+  "keywords": [
+    "react",
+    "react-components"
+  ],
+  "license": "MIT",
+  "author": "stikom-ui",
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "prepare": "tsc --build --clean && tsc --build",
+    "prettier-write": "prettier . --write",
+    "typescript-tsc": "tsc"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "18",
+    "prettier": "3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.14",
+    "tailwindcss": "^3.4.3",
+    "typescript": "5"
+  },
+  "peerDependencies": {
+    "react": "18"
+  }
+}
